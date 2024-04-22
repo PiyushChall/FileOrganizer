@@ -1,0 +1,10 @@
+{
+  "Documents": [".txt", ".pdf", ".doc", ".docx", ".ppt", ".pptx", ".xls", ".xlsx", ".csv"],
+  "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".psd", ".ai", ".tiff", ".ico"],
+  "Videos": [".mp4", ".avi", ".mkv", ".mov", ".wmv", ".m4v", ".flv", ".webm"],
+  "Music": [".mid", ".midi",".mpa", ".ogg", ".mp3", ".wav", ".flac", ".aac", ".wma", ".wpl"],
+  "Archives": [".zip", ".rar", ".7z", ".tar", ".gz", ".iso"],
+  "Executables": [".exe", ".msi"],
+  "Links": [".html", ".htm", ".php", ".asp", ".aspx", ".jsp", ".css", ".js", ".xml", ".json"],
+  "Python":[".py", ".ipynb"]
+}
