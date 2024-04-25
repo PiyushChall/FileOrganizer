@@ -13,7 +13,7 @@ customtkinter.set_default_color_theme("dark-blue")
 app = tkinter.Tk()
 app.geometry("720x480")
 app.title("File Organizer")
-app.configure(bg="#8daea1")
+app.configure(bg="#49243E")
 
 
 def organize_files(folder_path):
@@ -42,7 +42,7 @@ def organize_files(folder_path):
 def organize_file():
     try:
         file_path = path_input.get()
-        title.configure(text=file_path, text_color="#1B4242")
+        title.configure(text=file_path, text_color="#DBAFA0")
         organized.configure(text="")
         organize_files(file_path)
         organized.configure(text=" Organized ", text_color="green")
@@ -50,18 +50,18 @@ def organize_file():
         organized.configure(text=" Oops Invalid file path ", text_color="red")
 
 
-title = customtkinter.CTkLabel(app, text=" Feed me the file path ", text_color="#1B4242")
+title = customtkinter.CTkLabel(app, text=" Feed me the file path ", text_color="#DBAFA0")
 title.pack(padx=10, pady=10)
 
 path = tkinter.StringVar()
-path_input = customtkinter.CTkEntry(app, width=350, height=50, textvariable=path, fg_color="#EEE7DA")
+path_input = customtkinter.CTkEntry(app, width=350, height=50, textvariable=path, fg_color="#FFB1B1")
 path_input.pack()
 
 
 organized = customtkinter.CTkLabel(app, text="")
 organized.pack()
 
-organize_button = customtkinter.CTkButton(app, text=" Organize ", command=organize_file, fg_color="#092635", hover_color="#1B4242")
+organize_button = customtkinter.CTkButton(app, text=" Organize ", command=organize_file, fg_color="#DBAFA0", hover_color="#EFBC9B")
 organize_button.pack(padx=10, pady=10)
 
 
